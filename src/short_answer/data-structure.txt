@@ -1,71 +1,119 @@
 ***ANSWER ALL OF THE QUESTIONS BELOW***
 
 Why do we need data structure?
-Answer:
+Answer:In computer science, a data structure is a data organization, management, and storage format that enables
+efficient access and modification. More precisely, a data structure is a collection of data values, the relationships
+ among them, and the functions or operations that can be applied to the data, i.e., it is an algebraic structure about
+  data.
 
 What are the various operations that can be performed on different data structures?
-Answer:
+Answer:Insertion: Add a new data item in the given collection of data items.
+       Deletion: Delete an existing data item from the given collection of data items.
+       Traversal: Access each data item exactly once so that it can be processed.
+       Searching: Find out the location of the data item if it exists in the given collection of data items.
+       Sorting: Arranging the data items in some order i.e. in ascending or descending order in case of numerical data
+        and in dictionary order in case of alphanumeric data.
 
 When would we use data structures in the real world?
 Answer:
 
 What is an Array?
-Answer:
+Answer:An array is a collection of similar data elements stored at contiguous memory locations. It is the simplest data
+structure where each data ...
+
 
 What is the difference between Array and ArrayList?
-Answer:
+Answer:Array is a fixed length data structure whereas ArrayList is a variable length Collection class. We cannot change
+ length of array once created in Java but ArrayList can be changed. We cannot store primitives in ArrayList, it can only
+ store objects.
 
 What is a LinkedList?
-Answer:
+Answer:A linked list is a common data structure made of a chain of nodes in which each node contains a value and a
+pointer to the next node in the chain.
 
 How is an Array different from LinkedList?
-Answer:
+Answer:Arrays store elements in contiguous memory locations, resulting in easily calculable addresses for the elements
+ stored and this allows faster access to an element at a specific index. Linked lists are less rigid in their storage
+ structure and elements are usually not stored in contiguous locations, hence they need to be stored with additional
+ tags giving a reference to the next element. This difference in the data storage scheme decides which data structure
+  would be more suitable for a given situation.
 
 What is a Queue?
-Answer:
+Answer:ava Queue represents an ordered list of elements.
 
 What is a Stack (referring to data structures)?
-Answer:
+Answer:A Stack is a linear data structure that follows the LIFO (Last-In-First-Out) principle. Stack has one end,
+ whereas the Queue has two ends (front and rear). It contains only one pointer top pointer pointing to the topmost
+ element of the stack.
 
 What is FIFO and LIFO?
-Answer:
+Answer:LIFO and FIFO are the two different approaches to organizing and manipulating the data structure in computing.
+ LIFO means Last In First Out, a method for handling data structures where the last entered element will be processed
+ first and the first entered element will be processed last.
 
 Explain Big O Notation?
-Answer:
+Answer:Big-O notation represents the upper bound of the running time of an algorithm. Thus, it gives the worst-case
+complexity of an algorithm. Big-O gives the upper bound of a function
 
 What is the best case to search an element from an array?
-Answer:
+Answer:case one can be that x is equal to the middle element. If x is equal to the middle element, we have already found
+ x in the array. case two can be when x is less than the middle element, and case three can be that x is greater than
+ the middle element. Clearly, if x is equal to the middle element our search is over.
 
 What is the worst case to search an element from an array?
-Answer:
+Answer:The worst case occur in linear search algorithm when....... 1) Item is somewhere in the middle of the array 2)
+Item is not in the array at all 3) Item is the last element in the array
 
 Describe what a tree data structure is?
-Answer:
+Answer:A tree data structure is a non-linear data structure because it does not store in a sequential manner. It is a
+hierarchical structure as elements in a Tree are arranged in multiple levels. In the Tree data structure, the topmost
+node is known as a root node. Each node contains some data, and data can be of any type.
 
 Describe what a graph data structure is?
-Answer:
+Answer:A graph is a common data structure that consists of a finite set of nodes (or vertices) and a set of edges
+connecting them. A pair (x,y) is referred to as an edge, which communicates that the x vertex connects to the y vertex.
 
 What is the difference between the HashTable and HashMap?
-Answer:
+Answer:One of the major differences between HashMap and Hashtable is that HashMap is non-synchronized whereas Hashtable
+ is synchronized, which means Hashtable is thread-safe and can be shared between multiple threads but HashMap can not be
+  shared between multiple threads without proper synchronization.
 
 How do HashMaps work in Java? How do they store values, and when are they useful?
-Answer:
+Answer:shMap uses multiple buckets and each bucket points to a Singly Linked List where the entries (nodes) are stored.
+Once the bucket is identified by the hash function using hashcode, then hashCode is used to check if there is already a
+ key with the same hashCode or not in the bucket(singly linked list).
 
 What is ArrayIndexOutOfBoundsException in java? When does it occur?
-Answer:
+Answer:The ArrayIndexOutOfBoundsException occurs whenever we are trying to access any item of an array at an index which
+ is not present in the array. In other words, the index may be negative or exceed the size of an array.
 
 What are the different ways of copying an array into another array?
-Answer:
+Answer:Using variable assignment. This method has side effects as changes to the element of an array reflects on both
+the places. ...
+       Create a new array of the same length and copy each element.
+       Use the clone method of the array. Clone methods create a new array of the same size.
+       Use System. arraycopy() method.
 
 What is DFS and BFS?
-Answer:
+Answer:BFS stands for Breadth First Search. DFS stands for Depth First Search. 2. BFS(Breadth First Search) uses Queue
+data structure for finding the shortest path. DFS(Depth First Search) uses Stack data structure
 
 What is Recursion?
-Answer:
+Answer:In Java, a method that calls itself is known as a recursive method. And, this process is known as recursion. A
+physical world example would be to place two parallel mirrors facing each other. Any object in between them would be
+reflected recursively.
 
 What are linear and non-linear data Structures?
-Answer:
+Answer:A linear data structure is a type of data structure that arranges the data items in an orderly manner where the
+elements are attached adjacently while a nonlinear data structure is a type of data structure that arranges data in
+sorted order, creating a relationship among the data elements.
 
 
 Outline different sorting algorithms and their time complexities:
-
+The Most Popular Sorting Algorithms are
+Bubble Sort
+Selection Sort
+Insertion Sort
+Merge Sort
+Quick Sort
+Heap Sort.
